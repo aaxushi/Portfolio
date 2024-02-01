@@ -1,0 +1,197 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9E7B9B;
+    color: wheat;
+  }
+
+  header {
+    background-color: #333;
+    color: wheat;
+    text-align: center;
+    padding: 5px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 10px;
+    color: wheat;
+  }
+
+  section {
+    margin: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: wheat;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%; /* Adjust the width as needed */
+    box-sizing: border-box;
+  }
+
+  a {
+    color: wheat;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 75%;
+  }
+
+  #about {
+    font-size: 38px;
+    color: bisque;
+  }
+
+  .button {
+    background-color: #008CBA;
+    border-radius: 8px;
+    border: 2px solid #04AA6D;
+    transition-duration: 0.4s;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #89cdd6;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    text-align: left;
+    margin-right: 20px;
+  }
+
+  .sidenav {
+    height: 100%;   
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #eab2da;
+    background-color: #333;
+  }
+  .sidenav img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 6%;
+  }
+  
+
+  nav a:hover {
+    color: #eab2da;
+  }
+
+  .main {
+    margin-left: 160px;
+    font-size: 18px;
+    padding: 0px 0px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 400px;
+    background-color: #e8a81f;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dad34d;
+  }
+
+  th {
+    background-color: #638ca7;
+    color: #fff;
+  }
+
+  tr, td:hover {
+    background-color: #5e4e8c;
+  }
+
+  td:nth-child(even) {
+    background-color: lightcoral;
+  }
+
+  .table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .skill-box {
+    width: 200px;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #333;
+    background-color: lightpink;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+  }
+
+
+  .skill-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; /* Add margin between text box and images */
+  }
+
+  .image-container img {
+    width: 50%; /* Adjust the width of the images as needed */
+  }
